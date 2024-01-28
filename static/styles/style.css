@@ -1,0 +1,296 @@
+
+html {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: #E0ECFF;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.main-backdrop {
+    width: 100%;
+    min-height: 40vh;
+    position: relative;
+    background-position: bottom;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: url("../images/tim-stief.jpg");
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    top:-50px;
+}
+.main-backdrop > p {
+    color: rgb(24, 24, 24);
+    background-color: #ffffffb2;
+    font-size: 40px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 6px;
+    padding-right: 6px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.navbar {
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+    height: 50px;
+    background-color: #0000002f;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    padding-left:20px;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+}
+.navbutton-container {
+    display: flex;
+    padding-left: 50px;
+    flex-direction: row;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    
+}
+.navbutton-container > a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+}
+.navbutton {
+    height: 50px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+.navbutton:hover {
+    background-color: black;
+    color: white;
+    transition-duration: 250ms;
+    cursor: pointer;
+    
+}
+.home-backdrop {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-height: 2000px;
+    margin-bottom: 100px;
+}
+.home-content {
+    background-color: #cde0ff;
+    width: 80%;
+    min-height: 550px;
+    border-radius: 12px;
+    max-height: 1500px;
+    padding:10px;
+
+    display: flex;
+    flex-direction: row;
+    
+    border: solid #a6bee9 2 px;
+    
+}
+
+.home-portrait {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    padding: 15px;
+    height: 550px;
+    font-family: 'Roboto Slab', serif;
+}
+.home-picture {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    width: 30%;
+    height: 550px;
+    max-height: 1500px;
+    font-family: 'Roboto Slab', serif;
+}
+.home-picture > p {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    text-align: center;
+    font-size: small;
+}
+.home-picture > img {
+    max-width: 100%;
+    max-height: 100%;
+}
+.home-text > img {
+    max-width: 100%;
+    max-height: 100%;
+}
+.home-portrait > img {
+    max-width: 250px;
+    max-height: 250px;
+    border-radius: 50%;
+}
+.home-text {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    height: 550px;
+    max-height: 1500px;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    padding-right: 60px;
+    font-family: 'Roboto Slab', serif;
+}
+.home-text > b {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+.education-backdrop {
+    width: 100%;
+    min-height: 40vh;
+    position: relative;
+    background-position: bottom;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: url("../images/bcit-aerospace.png");
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    top:-50px;
+    margin:none;
+}
+.education-backdrop > p {
+    color: rgb(24, 24, 24);
+    background-color: #ffffffb2;
+    font-size: 40px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 6px;
+    padding-right: 6px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+.projects-backdrop {
+    width: 100%;
+    min-height: 40vh;
+    position: relative;
+    background-position: bottom;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: url("../images/coding.jpg");
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    top:-50px;
+    margin:none;
+}
+.projects-backdrop > p {
+    color: rgb(24, 24, 24);
+    background-color: #ffffffb2;
+    font-size: 40px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 6px;
+    padding-right: 6px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.home-text2 {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    height: 550px;
+    max-height: 1500px;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    padding-right: 60px;
+    font-family: 'Roboto Slab', serif;
+}
+.home-text2 > b {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+
+
+.home-picture2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    max-height: 1500px;
+    padding: 15px;
+    height: 550px;
+    font-family: 'Roboto Slab', serif;
+}
+.home-picture2 > p {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    text-align: center;
+    font-size: small;
+}
+.home-picture2 > img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+
+
+
+@media only screen and (max-width: 1200px) {
+    .home-content {
+        flex-direction: column;
+    }   
+    .home-portrait {
+        width: 100%;
+    }
+    .home-picture {
+        width: 100%;
+    }
+    .home-picture2 {
+        width: 100%;
+    }
+    .home-text {
+        width: 100%;
+        font-size: smaller;
+    }
+    .home-text2 {
+        width: 100%;
+    }
+    .home-text > b {
+        padding-top: 100px;
+    }
+    .home-content {
+        padding-bottom:200px;
+    }
+}

@@ -1,0 +1,24 @@
+Realmbot-Trade
+
+#Terraform-Ansible
+
+#Acmestock-Co
+
+#Video Streaming Application (Docker)
+
+#Telese Demo (Demo Website. Modify for legal purposes)
+
+ShaderRPG (Maybe just talk about the shader aspect, the error with raycasting and my solution.)
+
+Data Visualization (Soccer Players, Aircraft)
+
+Realmbot (Image scanning)
+
+Isometric Terrain Generator
+
+Snowball Game
+
+Geocentric Orbit Simulator
+
+
+

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Portfolio Website">
+        <meta name="keywords" content="HTML, CSS, JavaScript, Flask, Python">
+        <meta name="author" content="Peter Vanderhook">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Peter's Portfolio</title>
+        <link href="{{ url_for('static', filename='styles/style.css') }}" rel="stylesheet" type="text/css" >
+    </head>
+    <body>
+        <div class="navbar">
+            <div style="min-width: 200px;">
+                Peter Vanderhook
+            </div>
+            <div class="navbutton-container">
+                <a href="{{ url_for('home') }}" >
+                    <div class="navbutton">
+                    Home
+                    </div>
+                </a> 
+                <a href="{{ url_for('projects') }}" >
+                    <div class="navbutton">
+                    Projects
+                    </div>
+                </a> 
+                <a href="{{ url_for('experience') }}" >
+                    <div class="navbutton">
+                    Work Experience
+                    </div>
+                </a> 
+                <a href="{{ url_for('awards') }}" >
+                    <div class="navbutton">
+                    Awards
+                    </div>
+                </a> 
+                <a href="{{ url_for('hobbies') }}" >
+                    <div class="navbutton">
+                    Hobbies
+                    </div>
+                </a> 
+            </div>
+        </div>
+        <div class="home-backdrop">
+            <div class="home-content">
+                <div class="home-portrait">
+                    <img src="https://i.gyazo.com/f9429b536b01a1a0bd4bba990e617cff.jpg">
+                    <p style="display:flex;align-items: center;justify-content: center;">
+                        <i>Peter Vanderhook</i>
+                    </p>
+                </div>
+                <div class="home-text">
+                    <b>
+                        About Me
+                    </b>
+                    <p>
+                        Greetings! I'm Peter Vanderhook, a tech enthusiast with a lifelong passion for all things digital. 
+                        My journey into the world of Information Technology started at a young age, fueled by an insatiable curiosity for computers. 
+                        As a kid, I would eagerly disassemble and reassemble old computers from my dad's office, laying the foundation for my hands-on approach to technology.
+                    </p>
+                    <p>
+                        As I grew up and built on my technical skills I began modding games I enjoyed playing, adding new blocks to Minecraft with Java and implementing new NPCs/items in Terraria with JSON. 
+                        The ability to create and experience my additions firsthand in projects I loved further ignited my interest in programming. 
+                        Upon reaching high school, I took it a step further by crafting my own text-based RPG game 'Dragon Slayer'. 
+                    </p>
+                    <p>
+                        Beyond the screen, I'm equally passionate about the great outdoors, embarking on annual adventures such as portaging the Bowron Lakes or torturing my cardiovascular system with weeklong backpacking trips. 
+                        I also developed a keen interest in aviation, I quickly found myself flying airplanes (before even learning to drive!) showcasing my love for exploration and adventure both in the digital and physical realms.
+                    </p>
+                    <p>
+                        I'm eager to begin working alongside professionals on exciting new projects to help expand my knowledge so I can become 'that IT guy who knows everything'.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
